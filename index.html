@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js" integrity="sha512-is1ls2rgwpFZyixqKFEExPHVUUL+pPkBEPw47s/6NDQ4n1m6T/ySeDW3p54jp45z2EJ0RSOgilqee1WhtelXfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator using QrCode.js</h1>
+        <div class="formdiv">
+            <form action="/" class="qrform">
+                 <input type="text" id="content" placeholder="Enter your text" spellcheck="false" autocomplete="off" required/>
+                 <button id="formBtn" type="submit"><i class="fa-sharp fa-solid fa-arrow-up"></i></button>
+            </form>
+
+        </div>
+        <div class="qrcode"></div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: #698dc6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.formdiv{
+    padding: 20px;
+}
+.qrform{
+    display: inline-block;
+    position: relative;
+}
+.formdiv input{
+    width: 400px;
+    height: 55px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 15px;
+    box-shadow: 0 0 20px rgb(246,245,245);
+}
+#formBtn{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 5px;
+    width: 50px;
+    height: 60px;
+    border-radius: 25px;
+    rotate: 90deg;
+    border: none;
+    background-color: #80a6e2;
+}
+.fa-arrow-up{
+    font-size: 20px;
+}
+#formBtn:hover{
+    background-color: #bed1ed;
+    height: 80px;
+    right: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #80a6e2;
+}
+.formdiv input:focus{
+    outline: none;
+    box-shadow: 0 0 20px #9abcf3;
+}
+.qrcode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#download{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border:none;
+    background-color: #062b65;
+    border-radius: 20px;
+    outline: none;
+}
+#download:hover{
+    box-shadow: 0 0 20px #324e7d;
+    background-color: #324e7d
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
